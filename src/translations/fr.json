@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "services": "Services",
+    "values": "Valeurs",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue chez CoppensCreative",
+    "subtitle": "Développement web sur mesure pour votre entreprise",
+    "cta": {
+      "contact": "Contactez-nous",
+      "projects": "Voir les Projets"
+    }
+  },
+  "values": {
+    "title": "Valeurs",
+    "items": {
+      "quality": {
+        "title": "Qualité d'Abord",
+        "description": "Nous ne faisons aucun compromis sur la qualité, garantissant que chaque projet répond aux normes les plus élevées."
+      },
+      "clientFocused": {
+        "title": "Centré sur le Client",
+        "description": "Votre succès est notre priorité. Nous travaillons en étroite collaboration avec vous pour atteindre vos objectifs."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous restons à la pointe en implémentant les dernières technologies et tendances."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Comptez sur nous pour livrer vos projets à temps et dans le budget."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez un projet en tête ? Discutons de la façon dont nous pouvons donner vie à votre vision.",
+    "email": "Email",
+    "location": "Localisation",
+    "locationText": "Anvers, Belgique",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Message sur WhatsApp"
+  }
+} 

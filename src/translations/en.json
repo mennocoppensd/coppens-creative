@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "values": "Values",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to CoppensCreative",
+    "subtitle": "Tailormade web development for your business",
+    "cta": {
+      "contact": "Get in Touch",
+      "projects": "View Projects"
+    },
+    "featured": {
+      "title": "Creating Websites That Stand Out",
+      "subtitle": "Modern, responsive, and tailored to your needs",
+      "contactUs": "Contact Us"
+    }
+  },
+  "values": {
+    "title": "Values",
+    "items": {
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on quality, ensuring every project meets the highest standards."
+      },
+      "clientFocused": {
+        "title": "Client-Focused",
+        "description": "Your success is our priority. We work closely with you to achieve your goals."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay ahead of the curve, implementing the latest technologies and trends."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Count on us to deliver your projects on time and within budget."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind? Let's discuss how we can help bring your vision to life.",
+    "email": "Email",
+    "location": "Location",
+    "locationText": "Antwerp, Belgium",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Message on WhatsApp"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Explore our latest work and see how we bring ideas to life",
+    "viewProject": "View Project",
+    "viewLive": "View Live",
+    "project1": {
+      "title": "Project 1",
+      "description": "Website redesign for a local business",
+      "client": "Local Business Name",
+      "duration": "3 months",
+      "technologies": "React, Node.js, MongoDB",
+      "challenges": "The main challenge was creating a responsive design that would work seamlessly across all devices while maintaining the client's brand identity.",
+      "results": "The new website increased mobile traffic by 45% and improved conversion rates by 25%."
+    },
+    "project2": {
+      "title": "Project 2",
+      "description": "E-commerce platform development",
+      "client": "Online Retailer",
+      "duration": "6 months",
+      "technologies": "Next.js, Stripe, PostgreSQL",
+      "challenges": "Implementing a secure payment system and optimizing the checkout process for maximum conversion.",
+      "results": "Successfully launched with 100+ products and achieved 95% customer satisfaction rate."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive web solutions to help your business grow online",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Custom websites built with modern technologies"
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Websites that work perfectly on all devices"
+    },
+    "optimization": {
+      "title": "Performance Optimization",
+      "description": "Fast-loading and efficient web applications"
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "items": [
+        "Dedicated one-on-one collaboration throughout your project",
+        "Proven track record of delivering projects on time and within budget",
+        "Focus on performance, accessibility, and SEO best practices",
+        "Ongoing support and maintenance available",
+        "Clear communication and transparent development process"
+      ]
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Passionate about creating exceptional digital experiences",
+    "description": "We are a team of dedicated web developers and designers committed to delivering high-quality solutions that help businesses succeed online.",
+    "experience": {
+      "title": "Experience",
+      "description": "Years of experience in web development and design"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Specialized in modern web technologies and frameworks"
+    },
+    "clients": {
+      "title": "Happy Clients",
+      "description": "Successfully completed projects for clients worldwide"
+    }
+  }
+} 

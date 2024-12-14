@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projecten",
+    "services": "Diensten",
+    "values": "Waarden",
+    "about": "Over",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welkom bij CoppensCreative",
+    "subtitle": "Webontwikkeling op maat voor uw bedrijf",
+    "cta": {
+      "contact": "Neem Contact Op",
+      "projects": "Bekijk Projecten"
+    },
+    "featured": {
+      "title": "Websites die Opvallen",
+      "subtitle": "Modern, responsief en op maat gemaakt",
+      "contactUs": "Contacteer Ons"
+    }
+  },
+  "values": {
+    "title": "Waarden",
+    "items": {
+      "quality": {
+        "title": "Kwaliteit Eerst",
+        "description": "We doen geen concessies aan kwaliteit en zorgen ervoor dat elk project aan de hoogste normen voldoet."
+      },
+      "clientFocused": {
+        "title": "Klantgericht",
+        "description": "Uw succes is onze prioriteit. We werken nauw met u samen om uw doelen te bereiken."
+      },
+      "innovation": {
+        "title": "Innovatie",
+        "description": "We blijven voorop lopen door de nieuwste technologieën en trends te implementeren."
+      },
+      "reliability": {
+        "title": "Betrouwbaarheid",
+        "description": "Reken op ons om uw projecten op tijd en binnen budget op te leveren."
+      }
+    }
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Heeft u een project in gedachten? Laten we bespreken hoe we uw visie tot leven kunnen brengen.",
+    "email": "E-mail",
+    "location": "Locatie",
+    "locationText": "Antwerpen, België",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Bericht via WhatsApp"
+  },
+  "projects": {
+    "title": "Onze Projecten",
+    "subtitle": "Ontdek ons recente werk en zie hoe we ideeën tot leven brengen",
+    "viewProject": "Bekijk Project",
+    "viewLive": "Bekijk Live",
+    "project1": {
+      "title": "Project 1",
+      "description": "Website herontwerp voor een lokaal bedrijf",
+      "client": "Lokaal Bedrijf",
+      "duration": "3 maanden",
+      "technologies": "React, Node.js, MongoDB",
+      "challenges": "De grootste uitdaging was het creëren van een responsief ontwerp dat naadloos werkt op alle apparaten met behoud van de merkidentiteit van de klant.",
+      "results": "De nieuwe website verhoogde het mobiele verkeer met 45% en verbeterde de conversieratio's met 25%."
+    },
+    "project2": {
+      "title": "Project 2",
+      "description": "E-commerce platform ontwikkeling",
+      "client": "Online Retailer",
+      "duration": "6 maanden",
+      "technologies": "Next.js, Stripe, PostgreSQL",
+      "challenges": "Implementeren van een veilig betalingssysteem en optimaliseren van het afrekenproces voor maximale conversie.",
+      "results": "Succesvol gelanceerd met 100+ producten en 95% klanttevredenheid behaald."
+    }
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Complete weboplossingen om uw bedrijf online te laten groeien",
+    "webDev": {
+      "title": "Webontwikkeling",
+      "description": "Websites op maat gebouwd met moderne technologieën"
+    },
+    "responsive": {
+      "title": "Responsief Ontwerp",
+      "description": "Websites die perfect werken op alle apparaten"
+    },
+    "optimization": {
+      "title": "Prestatie Optimalisatie",
+      "description": "Snelle en efficiënte webapplicaties"
+    },
+    "expertise": {
+      "title": "Onze Expertise",
+      "items": [
+        "Toegewijde één-op-één samenwerking gedurende uw project",
+        "Bewezen staat van dienst in het op tijd en binnen budget opleveren van projecten",
+        "Focus op prestaties, toegankelijkheid en SEO best practices",
+        "Doorlopende ondersteuning en onderhoud beschikbaar",
+        "Heldere communicatie en transparant ontwikkelingsproces"
+      ]
+    }
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "Gepassioneerd over het creëren van uitzonderlijke digitale ervaringen",
+    "description": "Wij zijn een team van toegewijde webontwikkelaars en designers die zich inzetten om hoogwaardige oplossingen te leveren die bedrijven online helpen slagen.",
+    "experience": {
+      "title": "Ervaring",
+      "description": "Jaren ervaring in webontwikkeling en design"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Gespecialiseerd in moderne webtechnologieën en frameworks"
+    },
+    "clients": {
+      "title": "Tevreden Klanten",
+      "description": "Succesvol projecten voltooid voor klanten wereldwijd"
+    }
+  }
+} 

@@ -1,0 +1,67 @@
+.language-switcher {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.language-button {
+  background: var(--surface-color);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  transition: all var(--transition-speed) var(--transition-timing);
+}
+
+.language-button:hover {
+  background: var(--background-color);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: var(--surface-color);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border: none;
+  background: none;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background-color var(--transition-speed) var(--transition-timing);
+}
+
+.language-option:hover {
+  background: var(--background-color);
+}
+
+.language-option.active {
+  background: var(--primary-color);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    margin-right: 0.5rem;
+  }
+  
+  .language-button {
+    padding: 0.4rem 0.8rem;
+  }
+} 
