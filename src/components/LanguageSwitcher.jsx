@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { useTranslation, initReactI18next } from 'react-i18next';
+import ukFlag from '../assets/flags/uk-flag.svg';
+import belgianFlag from '../assets/flags/belgian-flag.svg';
+import frenchFlag from '../assets/flags/french-flag.svg';
 import '../styles/LanguageSwitcher.css';
 
 const LanguageSwitcher = ({ currentLang, onLanguageChange }) => {
@@ -7,9 +10,9 @@ const LanguageSwitcher = ({ currentLang, onLanguageChange }) => {
   const { i18n } = useTranslation();
 
   const languages = [
-    { code: 'en', name: 'EN', flag: '🇬🇧' },
-    { code: 'nl', name: 'NL', flag: '🇳🇱' },
-    { code: 'fr', name: 'FR', flag: '🇫🇷' }
+    { code: 'en', name: 'EN', flag: ukFlag },
+    { code: 'nl', name: 'NL', flag: belgianFlag },
+    { code: 'fr', name: 'FR', flag: frenchFlag }
   ];
 
   const handleLanguageChange = (langCode) => {
@@ -25,7 +28,11 @@ const LanguageSwitcher = ({ currentLang, onLanguageChange }) => {
         className="language-button"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {languages.find(lang => lang.code === currentLang).flag}
+        <img 
+          src={languages.find(lang => lang.code === currentLang).flag} 
+          alt={`${languages.find(lang => lang.code === currentLang).name} flag`}
+          className="flag-icon"
+        />
         {languages.find(lang => lang.code === currentLang).name}
       </button>
       
@@ -39,7 +46,8 @@ const LanguageSwitcher = ({ currentLang, onLanguageChange }) => {
                 handleLanguageChange(lang.code);
               }}
             >
-              {lang.flag} {lang.name}
+              <img src={lang.flag} alt={`${lang.name} flag`} className="flag-icon" />
+              {lang.name}
             </button>
           ))}
         </div>

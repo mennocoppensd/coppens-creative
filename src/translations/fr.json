@@ -13,10 +13,15 @@
     "cta": {
       "contact": "Contactez-nous",
       "projects": "Voir les Projets"
+    },
+    "featured": {
+      "title": "Création de Sites Web Remarquables",
+      "subtitle": "Modernes, responsifs et adaptés à vos besoins",
+      "contactUs": "Contactez-nous"
     }
   },
   "values": {
-    "title": "Valeurs",
+    "title": "Nos Valeurs",
     "items": {
       "quality": {
         "title": "Qualité d'Abord",
@@ -45,5 +50,72 @@
     "instagram": "Instagram",
     "whatsapp": "WhatsApp",
     "whatsappText": "Message sur WhatsApp"
+  },
+  "projects": {
+    "title": "Nos Projets",
+    "subtitle": "Découvrez nos dernières réalisations et comment nous donnons vie aux idées",
+    "viewProject": "Voir le Projet",
+    "viewLive": "Voir en Direct",
+    "project1": {
+      "title": "Projet 1",
+      "description": "Refonte de site web pour une entreprise locale",
+      "client": "Entreprise Locale",
+      "duration": "3 mois",
+      "technologies": "React, Node.js, MongoDB",
+      "challenges": "Le principal défi était de créer un design responsive qui fonctionne parfaitement sur tous les appareils tout en maintenant l'identité de marque du client.",
+      "results": "Le nouveau site a augmenté le trafic mobile de 45% et amélioré les taux de conversion de 25%."
+    },
+    "project2": {
+      "title": "Projet 2",
+      "description": "Développement d'une plateforme e-commerce",
+      "client": "Détaillant en Ligne",
+      "duration": "6 mois",
+      "technologies": "Next.js, Stripe, PostgreSQL",
+      "challenges": "Mise en place d'un système de paiement sécurisé et optimisation du processus de paiement pour une conversion maximale.",
+      "results": "Lancement réussi avec plus de 100 produits et 95% de satisfaction client."
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions web complètes pour faire croître votre entreprise en ligne",
+    "webDev": {
+      "title": "Développement Web",
+      "description": "Sites web personnalisés construits avec des technologies modernes"
+    },
+    "responsive": {
+      "title": "Design Responsive",
+      "description": "Sites web qui fonctionnent parfaitement sur tous les appareils"
+    },
+    "optimization": {
+      "title": "Optimisation des Performances",
+      "description": "Applications web rapides et efficaces"
+    },
+    "expertise": {
+      "title": "Notre Expertise",
+      "items": [
+        "Collaboration dédiée tout au long de votre projet",
+        "Historique prouvé de livraison de projets dans les délais et le budget",
+        "Focus sur les performances, l'accessibilité et les meilleures pratiques SEO",
+        "Support et maintenance continus disponibles",
+        "Communication claire et processus de développement transparent"
+      ]
+    }
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Passionnés par la création d'expériences numériques exceptionnelles",
+    "description": "Nous sommes une équipe de développeurs et designers web dédiés à fournir des solutions de haute qualité qui aident les entreprises à réussir en ligne.",
+    "experience": {
+      "title": "Expérience",
+      "description": "Années d'expérience en développement et design web"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Spécialisés dans les technologies et frameworks web modernes"
+    },
+    "clients": {
+      "title": "Clients Satisfaits",
+      "description": "Projets réussis pour des clients du monde entier"
+    }
   }
 } 
